@@ -1,0 +1,7 @@
+kopusatas ; 1.50 ; 1
+bananas; 2.20; 2;
+apelsinai; 0.25; 2;
+suris; 1.50; 4;
+varske; 1.00; 4;
+aorkos ; 0,25;1
+morkos ; 0.25;1

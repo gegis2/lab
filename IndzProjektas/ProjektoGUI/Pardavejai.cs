@@ -29,7 +29,7 @@ namespace ProjektoGUI
         public override string ToString()
         {
             string eilute;
-            eilute = string.Format(" {0,2:d} {1,15} {2,20}   {3,25}",
+            eilute = string.Format(" {0,0:d} {1,0} {2,0}   {3,0} ",
                                    ID, vardas, pavarde, adresas);
             return eilute;
         }

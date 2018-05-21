@@ -103,7 +103,7 @@
             // 
             this.paieskosats.Location = new System.Drawing.Point(71, 207);
             this.paieskosats.Name = "paieskosats";
-            this.paieskosats.Size = new System.Drawing.Size(361, 203);
+            this.paieskosats.Size = new System.Drawing.Size(448, 203);
             this.paieskosats.TabIndex = 9;
             this.paieskosats.Text = "";
             // 

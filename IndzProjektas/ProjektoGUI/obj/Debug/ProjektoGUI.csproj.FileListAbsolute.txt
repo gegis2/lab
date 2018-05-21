@@ -26,18 +26,20 @@ E:\Studijoms\programavimo indz\ProjektoGUI\ProjektoGUI\obj\Debug\ProjektoGUI.exe
 E:\Studijoms\programavimo indz\ProjektoGUI\ProjektoGUI\obj\Debug\ProjektoGUI.pdb
 E:\Studijoms\programavimo indz\ProjektoGUI\ProjektoGUI\bin\Debug\produktai.txt
 E:\Studijoms\programavimo indz\ProjektoGUI\ProjektoGUI\bin\Debug\Pardavejai.txt
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\bin\Debug\Pardavejai.txt
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\bin\Debug\produktai.txt
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\bin\Debug\ProjektoGUI.exe.config
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\bin\Debug\ProjektoGUI.exe
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\bin\Debug\ProjektoGUI.pdb
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.csprojResolveAssemblyReference.cache
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Projektas.resources
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Itraukimas.resources
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Paieska.resources
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Pardavimo_forma.resources
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Properties.Resources.resources
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.csproj.GenerateResource.cache
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.csproj.CoreCompileInputs.cache
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.exe
-C:\Users\Minde\Desktop\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.pdb
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\bin\Debug\Pardavejai.txt
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\bin\Debug\produktai.txt
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\bin\Debug\ProjektoGUI.exe.config
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\bin\Debug\ProjektoGUI.exe
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\bin\Debug\ProjektoGUI.pdb
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.csprojResolveAssemblyReference.cache
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Projektas.resources
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Itraukimas.resources
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Paieska.resources
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Pardavimo_forma.resources
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Properties.Resources.resources
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.csproj.GenerateResource.cache
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.csproj.CoreCompileInputs.cache
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.exe
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.pdb
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\bin\Debug\Klientai.txt
+E:\Studijoms\programavimo indz\IndzProjektas\ProjektoGUI\obj\Debug\ProjektoGUI.Katalogas.resources

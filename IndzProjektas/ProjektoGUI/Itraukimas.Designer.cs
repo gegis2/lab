@@ -29,15 +29,17 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.adresas1 = new System.Windows.Forms.MaskedTextBox();
-            this.paarde1 = new System.Windows.Forms.MaskedTextBox();
-            this.vardas1 = new System.Windows.Forms.MaskedTextBox();
-            this.ID1 = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.darbuotojas = new System.Windows.Forms.CheckBox();
+            this.klientas = new System.Windows.Forms.CheckBox();
+            this.ID = new System.Windows.Forms.TextBox();
+            this.vardas = new System.Windows.Forms.TextBox();
+            this.pavarde = new System.Windows.Forms.TextBox();
+            this.adresas = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -50,38 +52,6 @@
             this.label1.Size = new System.Drawing.Size(150, 31);
             this.label1.TabIndex = 2;
             this.label1.Text = "Itraukimas";
-            // 
-            // adresas1
-            // 
-            this.adresas1.Location = new System.Drawing.Point(121, 260);
-            this.adresas1.Margin = new System.Windows.Forms.Padding(4);
-            this.adresas1.Name = "adresas1";
-            this.adresas1.Size = new System.Drawing.Size(132, 22);
-            this.adresas1.TabIndex = 28;
-            // 
-            // paarde1
-            // 
-            this.paarde1.Location = new System.Drawing.Point(121, 219);
-            this.paarde1.Margin = new System.Windows.Forms.Padding(4);
-            this.paarde1.Name = "paarde1";
-            this.paarde1.Size = new System.Drawing.Size(132, 22);
-            this.paarde1.TabIndex = 27;
-            // 
-            // vardas1
-            // 
-            this.vardas1.Location = new System.Drawing.Point(121, 177);
-            this.vardas1.Margin = new System.Windows.Forms.Padding(4);
-            this.vardas1.Name = "vardas1";
-            this.vardas1.Size = new System.Drawing.Size(132, 22);
-            this.vardas1.TabIndex = 26;
-            // 
-            // ID1
-            // 
-            this.ID1.Location = new System.Drawing.Point(121, 137);
-            this.ID1.Margin = new System.Windows.Forms.Padding(4);
-            this.ID1.Name = "ID1";
-            this.ID1.Size = new System.Drawing.Size(132, 22);
-            this.ID1.TabIndex = 25;
             // 
             // label6
             // 
@@ -133,16 +103,66 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // darbuotojas
+            // 
+            this.darbuotojas.AutoSize = true;
+            this.darbuotojas.Location = new System.Drawing.Point(118, 78);
+            this.darbuotojas.Name = "darbuotojas";
+            this.darbuotojas.Size = new System.Drawing.Size(107, 21);
+            this.darbuotojas.TabIndex = 32;
+            this.darbuotojas.Text = "Darbuotojas";
+            this.darbuotojas.UseVisualStyleBackColor = true;
+            // 
+            // klientas
+            // 
+            this.klientas.AutoSize = true;
+            this.klientas.Location = new System.Drawing.Point(276, 78);
+            this.klientas.Name = "klientas";
+            this.klientas.Size = new System.Drawing.Size(80, 21);
+            this.klientas.TabIndex = 33;
+            this.klientas.Text = "Klietnas";
+            this.klientas.UseVisualStyleBackColor = true;
+            // 
+            // ID
+            // 
+            this.ID.Location = new System.Drawing.Point(118, 140);
+            this.ID.Name = "ID";
+            this.ID.Size = new System.Drawing.Size(100, 22);
+            this.ID.TabIndex = 34;
+            // 
+            // vardas
+            // 
+            this.vardas.Location = new System.Drawing.Point(118, 181);
+            this.vardas.Name = "vardas";
+            this.vardas.Size = new System.Drawing.Size(100, 22);
+            this.vardas.TabIndex = 35;
+            // 
+            // pavarde
+            // 
+            this.pavarde.Location = new System.Drawing.Point(118, 223);
+            this.pavarde.Name = "pavarde";
+            this.pavarde.Size = new System.Drawing.Size(100, 22);
+            this.pavarde.TabIndex = 36;
+            // 
+            // adresas
+            // 
+            this.adresas.Location = new System.Drawing.Point(118, 263);
+            this.adresas.Name = "adresas";
+            this.adresas.Size = new System.Drawing.Size(100, 22);
+            this.adresas.TabIndex = 37;
+            // 
             // Itraukimas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(537, 458);
+            this.Controls.Add(this.adresas);
+            this.Controls.Add(this.pavarde);
+            this.Controls.Add(this.vardas);
+            this.Controls.Add(this.ID);
+            this.Controls.Add(this.klientas);
+            this.Controls.Add(this.darbuotojas);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.adresas1);
-            this.Controls.Add(this.paarde1);
-            this.Controls.Add(this.vardas1);
-            this.Controls.Add(this.ID1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -159,14 +179,16 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MaskedTextBox adresas1;
-        private System.Windows.Forms.MaskedTextBox paarde1;
-        private System.Windows.Forms.MaskedTextBox vardas1;
-        private System.Windows.Forms.MaskedTextBox ID1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox darbuotojas;
+        private System.Windows.Forms.CheckBox klientas;
+        private System.Windows.Forms.TextBox ID;
+        private System.Windows.Forms.TextBox vardas;
+        private System.Windows.Forms.TextBox pavarde;
+        private System.Windows.Forms.TextBox adresas;
     }
 }

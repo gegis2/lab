@@ -13,8 +13,8 @@ namespace ProjektoGUI
 {
     public partial class Projektas : Form
     {
-
         
+
         public Projektas()
         {
             InitializeComponent();
@@ -47,6 +47,15 @@ namespace ProjektoGUI
         {
             MessageBox.Show("Komanda sudaro grupes IFIN 6/1 studentai \n Deividas Bigelis \n" +
                             " Laura Briedyte \n Mindaugas Navickas \n Martynas Dirmauskis \n Simas Guliokas");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+
+            Katalogas katalogas = new Katalogas();
+            katalogas.Show();
+
         }
 
         

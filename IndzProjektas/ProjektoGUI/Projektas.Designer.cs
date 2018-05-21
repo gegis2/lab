@@ -43,9 +43,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(443, 124);
+            this.button1.Location = new System.Drawing.Point(591, 153);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 37);
+            this.button1.Size = new System.Drawing.Size(197, 46);
             this.button1.TabIndex = 0;
             this.button1.Text = "Paieska";
             this.button1.UseVisualStyleBackColor = true;
@@ -53,9 +54,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(243, 124);
+            this.button2.Location = new System.Drawing.Point(324, 153);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 37);
+            this.button2.Size = new System.Drawing.Size(197, 46);
             this.button2.TabIndex = 1;
             this.button2.Text = "Formuoti pardavima";
             this.button2.UseVisualStyleBackColor = true;
@@ -63,28 +65,32 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(243, 192);
+            this.button3.Location = new System.Drawing.Point(324, 236);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(148, 37);
+            this.button3.Size = new System.Drawing.Size(197, 46);
             this.button3.TabIndex = 2;
             this.button3.Text = "Prekiu katalogas";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(330, 46);
+            this.label1.Location = new System.Drawing.Point(440, 57);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(163, 29);
+            this.label1.Size = new System.Drawing.Size(200, 36);
             this.label1.TabIndex = 3;
             this.label1.Text = "Projektas v.1";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(443, 192);
+            this.button4.Location = new System.Drawing.Point(591, 236);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(148, 37);
+            this.button4.Size = new System.Drawing.Size(197, 46);
             this.button4.TabIndex = 4;
             this.button4.Text = "Itraukti pardaveja/pirkeja";
             this.button4.UseVisualStyleBackColor = true;
@@ -92,19 +98,21 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.failasToolStripMenuItem,
             this.apieToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(810, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1080, 28);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // failasToolStripMenuItem
             // 
             this.failasToolStripMenuItem.Name = "failasToolStripMenuItem";
-            this.failasToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.failasToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
             this.failasToolStripMenuItem.Text = "Failas";
             // 
             // apieToolStripMenuItem
@@ -113,28 +121,28 @@
             this.vartotojoVadovasToolStripMenuItem,
             this.apieMusToolStripMenuItem});
             this.apieToolStripMenuItem.Name = "apieToolStripMenuItem";
-            this.apieToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.apieToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.apieToolStripMenuItem.Text = "Pagalba";
             // 
             // vartotojoVadovasToolStripMenuItem
             // 
             this.vartotojoVadovasToolStripMenuItem.Name = "vartotojoVadovasToolStripMenuItem";
-            this.vartotojoVadovasToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.vartotojoVadovasToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.vartotojoVadovasToolStripMenuItem.Text = "Vartotojo vadovas";
             // 
             // apieMusToolStripMenuItem
             // 
             this.apieMusToolStripMenuItem.Name = "apieMusToolStripMenuItem";
-            this.apieMusToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.apieMusToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.apieMusToolStripMenuItem.Text = "Apie mus";
             this.apieMusToolStripMenuItem.Click += new System.EventHandler(this.apieMusToolStripMenuItem_Click);
             // 
             // Projektas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(810, 388);
+            this.ClientSize = new System.Drawing.Size(1080, 478);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
@@ -142,6 +150,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Projektas";
             this.Text = "Projektas v.1";
             this.Load += new System.EventHandler(this.Form1_Load);

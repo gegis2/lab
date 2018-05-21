@@ -31,7 +31,7 @@ namespace ProjektoGUI
         public override string ToString()
         {
             string eilute;
-            eilute = string.Format(" {0,2} {1,10} {2,20} {", suma, uzsakovas, uzsData);
+            eilute = string.Format(" {0,2:f2} {1,10} {2,15}  {3,20} ", suma, uzsakovas, uzsData, pardavejoID);
             return eilute;
         }
         public produktaiclass Imti(int nr) { return prekes[nr]; }
